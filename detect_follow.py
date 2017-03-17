@@ -8,7 +8,7 @@ from pygame import Rect as PyRect
 import argparse
 import itertools
 
-#Prepare Kalman2D class to be called. Thanks to http://jayrambhia.wordpress.com/2012/07/26/kalman-filter/ for source for Kalman2D
+#Prepare Kalman2D class to be called for predicting lost feature points.
 ###############################################
 class Kalman2D(object):
     '''
